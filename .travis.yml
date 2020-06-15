@@ -9,4 +9,4 @@ deploy:
     secure: b49d834f-489f-4648-afa0-bf28feb5eb85
   app: less2
   on:
-    repo: Almaz2/l2
+    repo: Almaz2/l2/less2
