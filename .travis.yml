@@ -5,8 +5,8 @@ script:
   - npm install -g grunt-cli
 deploy:
   provider: heroku
-  api_key: c275f027-6358-4aab-9fa1-ae15d672b191
-    secure: b49d834f-489f-4648-afa0-bf28feb5eb85
+  api_key: 
+    secure: 65638d4b-5aa8-4c15-a309-4dc88345388c
   app: less2
   on:
     repo: Almaz2/l2/less2
