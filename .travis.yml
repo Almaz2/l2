@@ -3,3 +3,10 @@ node_js:
   - 8.5.0
 script:
   - npm install -g grunt-cli
+deploy:
+  provider: heroku
+  api_key:
+    secure: less-2-111
+  app: less2
+  on:
+    repo: Almaz2/l2
