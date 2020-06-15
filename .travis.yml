@@ -1,8 +1,7 @@
-language: node_js
-node_js:
-  - 8.5.0
+language: python
+
 script:
-  - npm install -g grunt-cli
+  - python -m pytest -v 
 deploy:
   provider: heroku
   api_key: 
